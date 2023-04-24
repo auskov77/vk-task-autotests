@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Testing Suite">
+    <test name="Parallel Tests" parallel="methods" thread-count="1">
+        <classes>
+            <class name="com.vk.MessagesCreateChatPositiveTest"/>
+            <class name="com.vk.MessagesCreateChatNegativeTest"/>
+        </classes>
+    </test>
+</suite>
